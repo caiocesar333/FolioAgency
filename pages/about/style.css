@@ -1,0 +1,215 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 5 00;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  color: white;
+}
+
+/*  ESTILOS DA PÁGINA PRINCIPAL MOBILE*/
+
+body {
+  max-width: 100vw;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero a {
+  width: 50vw;
+}
+
+.navbar {
+  padding: 20px;
+  width: 100vw;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar .menu {
+  align-self: center;
+}
+
+.hero {
+  width: 100vw;
+  height: 810px;
+  display: flex;
+  flex-flow: column nowrap;
+  padding-top: 50px;
+  padding-left: 25px;
+}
+
+.hero .hero-title {
+  width: 70vw;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.5px;
+  color: #232340;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.hero .hero-p {
+  width: 80vw;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+
+.default-btn {
+  width: 160px;
+  height: 56px;
+  background: #5468e7;
+  border-radius: 8px;
+  border-width: 0px;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  box-shadow: none;
+}
+
+.hero-images {
+  width: 340px;
+  height: 100vh;
+}
+
+.hero-images .line {
+  width: 70vw;
+  height: 600px;
+  top: -30px;
+  left: 115px;
+}
+
+.hero-images .desktop-img {
+  width: 90vw;
+  left: 40px;
+  bottom: -110px;
+}
+
+.hero-images .bg {
+  height: 60vh;
+  width: 80vw;
+  top: 450px;
+  left: 80px;
+}
+.hero-images img {
+  position: absolute;
+}
+
+/*  ESTILOS DA PÁGINA "WE MAKE DESIGNS" MOBILE/ */
+
+#we-make-section {
+  width: 100vw;
+  background: #232340;
+  padding-left: 25px;
+}
+
+.we-make {
+  width: 90vw;
+  height: 810px;
+  display: flex;
+  flex-flow: column nowrap;
+  padding-top: 50px;
+  padding-left: 25px;
+}
+
+.we-make p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.we-make .title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: white;
+}
+
+.year-slider {
+  width: 80vw;
+  margin-top: 30px;
+}
+
+.year-slider a {
+  width: 15px;
+  text-align: center;
+  padding: 10px;
+}
+
+.arrow-down {
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+.arrow-down:hover {
+  border-radius: 50%;
+  background: #5468e7;
+}
+
+.banner {
+  margin-top: 70px;
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+}
+
+.banner img {
+  position: absolute;
+}
+
+.shape3 {
+  bottom: -1020px;
+  left: 180px;
+}
+
+#branding-number-section {
+  background: #232340;
+  padding-left: 25px;
+  padding-top: 70px;
+}
+
+.branding-number {
+  display: flex;
+  flex-flow: column;
+}
+
+.branding-number p {
+  margin-top: 40px;
+  color: #8b8b8b;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.branding-number .default-btn{
+  margin-top: 40px;
+}
+
+.branding-number img{
+  max-width: 100vw;
+}
