@@ -16,6 +16,19 @@ h2 {
   color: white;
 }
 
+.nav-iframe{
+  width: 100vw;
+  height: 90px;
+}
+
+.footer-iframe{
+  height: 100%;
+}
+
+#footer-section{
+  height: 800px;
+}
+
 /*  ESTILOS DA PÁGINA PRINCIPAL MOBILE*/
 
 body {
@@ -48,7 +61,7 @@ a {
   height: 810px;
   display: flex;
   flex-flow: column nowrap;
-  padding-top: 50px;
+  padding-top: 40px;
   padding-left: 25px;
 }
 
@@ -183,7 +196,7 @@ a {
 }
 
 .shape3 {
-  bottom: -1020px;
+  bottom: -1050px;
   left: 180px;
 }
 
