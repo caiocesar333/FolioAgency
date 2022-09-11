@@ -24,12 +24,20 @@ h2 {
   color: white;
 }
 
+.footer-iframe {
+  height: 100%;
+}
+
+#footer-section {
+  height: 800px;
+}
+
 .nav-iframe {
   width: 100vw;
   height: 90px;
 }
 
-#what-we-do p {
+.we-make p {
   color: #5468e7;
   margin: 20px;
   font-style: normal;
@@ -83,4 +91,35 @@ h2 {
 
 .card:hover {
   background: #5468e7;
+}
+
+.achievement {
+  width: 60vw;
+  margin: 20px;
+}
+
+.achievement p {
+  color: #5468e7;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.achievement h3 {
+  margin-bottom: 40px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.achievement img {
+  margin-bottom: 40px;
+}
+
+.phone-banner {
+  height: 500px;
 }
