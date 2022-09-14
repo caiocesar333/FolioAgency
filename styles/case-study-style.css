@@ -29,50 +29,125 @@
   margin-bottom: 25px;
 }
 
-.icons-container{
-    width: 100vw;
-    margin-top: 50px;
-    display: flex;
+.icons-container {
+  width: 100vw;
+  margin-top: 50px;
+  display: flex;
 }
 
-.pacman{
-    width: 30vw;
+.pacman {
+  width: 30vw;
 }
 
-.privacy{
-    width: 40vw;
+.privacy {
+  width: 40vw;
 }
 
-.icons-container img{
-    margin-bottom: 20px;
+.icons-container img {
+  margin-bottom: 20px;
 }
 
-.icons-container p{
-    color: #5468E7;
+.icons-container p {
+  color: #5468e7;
 }
 
-.hero-images{
-    height: 60vh;
+.hero-images {
+  height: 60vh;
 }
 
-.arrow-container{
-    display: flex;
-    width: 100vw;
-    justify-content: center;
-    margin-bottom: 50px;
+.arrow-container {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
-.arrow-container img{
-    border: 0px solid #D8D8D8;
-    border-radius: 50% ;
+.arrow-container img {
+  border: 0px solid #d8d8d8;
+  border-radius: 50%;
 }
 
-.arrow{
-    width: 58px;
-    height: 58px;
+.arrow {
+  width: 58px;
+  height: 58px;
 }
 
-.arrow:hover{
-    background: #5468E7;
-    transition: 400ms;
+.arrow:hover {
+  background: #5468e7;
+  transition: 400ms;
+}
+
+/*               OVER VIEW                 */
+
+.tablet {
+  width: 100vw;
+  top: 131px;
+  left: 0;
+}
+
+.overview-text {
+  margin-top: 50px;
+  margin-left: 25px;
+  width: 80vw;
+}
+
+.overview-text p:first-child {
+  color: #5468e7;
+}
+
+.overview-text h2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #232340;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.overview-text p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #606060;
+  margin-bottom: 40px;
+}
+
+.overview-text h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+}
+
+.card-container {
+  margin-top: 80px;
+  display: flex;
+  align-content: center;
+  flex-flow: column wrap;
+}
+
+.card {
+  margin-bottom: 50px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-flow: column;
+  border: 1px solid #d8d8d8;
+  border-radius: 32px;
+  width: 311px;
+  height: 256px;
+}
+
+.card p {
+  margin-top: 25px;
+  text-align: center;
+  color: #5468e7;
+}
+
+.card img {
+  align-self: center;
+  width: 92px;
+  height: 92px;
 }
