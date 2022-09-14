@@ -1,0 +1,78 @@
+.cs-text {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.featured-product {
+  font-weight: 300;
+  font-size: 9.95556px;
+  line-height: 13px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 118px;
+  height: 28px;
+  border-radius: 14.2222px;
+  background: #ffba79;
+  margin-bottom: 24px;
+}
+
+.cs-text h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px;
+  color: #232340;
+  margin-bottom: 25px;
+}
+
+.icons-container{
+    width: 100vw;
+    margin-top: 50px;
+    display: flex;
+}
+
+.pacman{
+    width: 30vw;
+}
+
+.privacy{
+    width: 40vw;
+}
+
+.icons-container img{
+    margin-bottom: 20px;
+}
+
+.icons-container p{
+    color: #5468E7;
+}
+
+.hero-images{
+    height: 60vh;
+}
+
+.arrow-container{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.arrow-container img{
+    border: 0px solid #D8D8D8;
+    border-radius: 50% ;
+}
+
+.arrow{
+    width: 58px;
+    height: 58px;
+}
+
+.arrow:hover{
+    background: #5468E7;
+    transition: 400ms;
+}
