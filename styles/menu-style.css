@@ -67,3 +67,7 @@ h1 {
     transition: 400ms;
     background: #5468E7 ;
 }
+
+a{
+  text-decoration: none;
+}

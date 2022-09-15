@@ -1,0 +1,19 @@
+.btn-action{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    margin-bottom: 0;
+}
+
+.btn-action .default-btn{
+    width: 290px;
+}
+
+
+.work-cards{
+    margin-bottom: 0px;
+}
+
+#footer-section{
+    margin-top: 80px;
+}
