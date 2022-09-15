@@ -16,16 +16,16 @@ h2 {
   color: white;
 }
 
-.nav-iframe{
+.nav-iframe {
   width: 100vw;
   height: 90px;
 }
 
-.footer-iframe{
-  height: 1000px;
+.footer-iframe {
+  height: 1200px;
 }
 
-#footer-section{
+#footer-section {
   height: 800px;
 }
 
@@ -65,7 +65,7 @@ a {
   padding-left: 25px;
 }
 
-.hero .hero-title {
+.hero-title {
   width: 70vw;
   font-style: normal;
   font-weight: 700;
@@ -77,7 +77,7 @@ a {
   margin-bottom: 25px;
 }
 
-.hero .hero-p {
+.hero-p {
   width: 80vw;
   font-style: normal;
   font-weight: 400;
@@ -111,13 +111,13 @@ a {
   left: 115px;
 }
 
-.hero-images .desktop-img {
+.desktop-img {
   width: 90vw;
   left: 40px;
   bottom: -110px;
 }
 
-.hero-images .bg {
+.bg {
   height: 60vh;
   width: 80vw;
   top: 450px;
@@ -219,10 +219,72 @@ a {
   line-height: 28px;
 }
 
-.branding-number .default-btn{
+.branding-number .default-btn {
   margin-top: 40px;
 }
 
-.branding-number img{
+.branding-number img {
   max-width: 100vw;
+}
+
+@media screen and (min-width: 720px) {
+  .hero {
+    width: 100vw;
+  }
+
+  .hero-images {
+    width: 100vw;
+  }
+
+  .bg {
+    top: 300px;
+    left: 200px;
+    width: 500px;
+    height: 513px;
+  }
+  .desktop-img {
+    width: 600px;
+    height: 600px;
+    top: 250px;
+    left: 150px;
+  }
+  .hero-title {
+    width: 40vw;
+  }
+  .hero-p {
+    width: 40vw;
+  }
+
+  .hero .default-btn{
+    margin-top: 150px;
+  }
+  .banner{
+    width: 85vw;
+  }
+
+  .who-we-are{
+    width: 690px;
+    height: 420px;
+  }
+
+  .branding-number{
+    flex-flow: row;
+  }
+  
+  .branding-number h2{
+    width: 40vw;
+  }
+
+  .branding-number p{
+    width: 60vw;
+  }
+
+  .branding-number img{
+    width: 283px;
+    height: 283px;
+  }
+
+  .branding-number .default-btn{
+    margin-bottom: 70px;
+  }
 }

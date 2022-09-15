@@ -113,3 +113,120 @@ p {
   height: 58px;
   transition: 400ms;
 }
+
+@media screen and (min-width: 720px) {
+  .our-partnerships {
+    margin-left: 120px;
+  }
+
+  .our-partnerships h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+  }
+  .our-partnerships p {
+    width: 40vw;
+  }
+
+  .work-cards {
+    margin-top: 0px;
+  }
+
+  .card {
+    height: 500px;
+  }
+
+  .card-text {
+    position: absolute;
+  }
+
+  .sapiens-text {
+    top: -50px;
+    left: 10px;
+    margin-top: 550px;
+  }
+
+  .sapiens-text p {
+    width: 30vw;
+  }
+
+  .card .sapiens {
+    left: 250px;
+    width: 400px;
+  }
+  .sapiens-text h4 {
+    width: 55vw;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .sapiens1 img {
+    left: 300px;
+  }
+
+  .sapiens1 .card-arrow {
+    top: 300px;
+    left: 80vw;
+  }
+
+  .bento1 img {
+    bottom: -700px;
+    right: 50px;
+  }
+
+  .bento1 {
+    margin-top: 100px;
+    margin-left: 180px;
+  }
+
+  .bento1 h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .bento1 .bento-parag{
+    margin-top: 400px;
+  }
+
+  .bento1 .card-arrow{
+    top: 360px;
+    right: 0px;
+  }
+
+  .bento2 img {
+    bottom: -1200px;
+    left: 40px;
+  }
+
+  .bento2 {
+    margin-top: -220px;
+    margin-left: -290px;
+    margin-bottom: 70px;
+  }
+
+  .bento2 h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .bento2 .bento-parag{
+    width: 50vw;
+    margin-top: 400px;
+  }
+
+  .bento2 .card-arrow{
+    top: 360px;
+    left: 290px;
+  }
+
+  .bento3{display: none;}
+  .sapiens2{display: none;}
+
+
+}
