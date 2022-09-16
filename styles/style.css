@@ -255,36 +255,42 @@ a {
     width: 40vw;
   }
 
-  .hero .default-btn{
+  .hero .default-btn {
     margin-top: 150px;
   }
-  .banner{
+  .banner {
     width: 85vw;
   }
 
-  .who-we-are{
+  .who-we-are {
     width: 690px;
     height: 420px;
   }
 
-  .branding-number{
+  .branding-number {
     flex-flow: row;
   }
-  
-  .branding-number h2{
+
+  .branding-number h2 {
     width: 40vw;
   }
 
-  .branding-number p{
+  .branding-number p {
     width: 60vw;
   }
 
-  .branding-number img{
+  .branding-number img {
     width: 283px;
     height: 283px;
   }
 
-  .branding-number .default-btn{
+  .branding-number .default-btn {
     margin-bottom: 70px;
   }
+
+  .line {
+    opacity: 0.5;
+    display: none;
+  }
+
 }

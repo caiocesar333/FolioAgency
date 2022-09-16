@@ -160,6 +160,7 @@ a:hover {
 @media screen and (min-width:720px) {
     .tablet{
         width: 40vw;
+        margin-top: 150px;
     }
     .line{
         display: none;

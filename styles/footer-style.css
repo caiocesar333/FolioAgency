@@ -98,14 +98,24 @@ h2 {
   padding-bottom: 40px;
 }
 
+@media screen and (max-width:480px){
+  #tablet{
+    display: none;
+  }
+}
+
 @media screen and (min-width:720px) {
   .say-hello .bg-footer{
-    width: 140vw;
+    width: 110vw;
     height: 728px;
   }
 
   .say-hello-btn .default-btn{
    display: none;
   }
-  
+
+
+  #mobile{
+    display: none;
+  }
 }

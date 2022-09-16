@@ -1,20 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="..//styles/style.css">
-    <link rel="stylesheet" href="..//styles/navbar.css">
-</head>
-<body>
-    <div class="navbar">
+    <link rel="stylesheet" href="..//styles/style.css" />
+    <link rel="stylesheet" href="..//styles/navbar.css" />
+  </head>
+  <body>
+    <section id="mobile">
+      <div class="navbar">
+        <a href="about.html" target="_blank" class="folio-logo"
+          ><img src="../src/assets/folio-logo.svg" />
+        </a>
+        <a href="../pages/menu.html" class="menu" target="_blank"
+          ><img src="../src/assets/burger-icon.svg"
+        /></a>
+      </div>
+    </section>
+    <section id="tablet">
+      <div class="navbar">
         <a href="about.html" class="folio-logo"
           ><img src="../src/assets/folio-logo.svg" />
         </a>
-        <a href="../pages/menu.html" class="menu" target="_blank"><img src="../src/assets/burger-icon.svg" /></a>
-      </div>   
-</body>
+          <ul>
+            <li><a target="_blank" href="about.html">About</a></li>
+            <li><a target="_blank" href="work.html">Work</a></li>
+            <li><a target="_blank" href="service.html">Services</a></li>
+            <li><a target="_blank" href="jobs.html">Jobs</a></li>
+          </ul>
+        <a target="_blank" href="../pages/error-404.html"><button class="default-btn">Contact Us</button></a></div>
+      </div>
+    </section>
+  </body>
 </html>
