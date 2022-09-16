@@ -124,6 +124,18 @@ h2 {
   height: 500px;
 }
 
+@media screen and (max-width: 480px){
+  #tablet{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1280px){
+  #tablet{
+    display: none;
+  }
+}
+
 @media screen and (min-width: 1300px) {
 
   .nav-iframe {

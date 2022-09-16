@@ -121,6 +121,7 @@ img {
     display: none;
   }
   .line{
+    display: none;
     top: 0;
     right: 0;
   }
