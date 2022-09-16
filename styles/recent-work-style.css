@@ -17,3 +17,52 @@
 #footer-section{
     margin-top: 80px;
 }
+
+@media screen and (min-width:720px) {
+    .card img{
+        width: 258px;
+        height: 355px;
+        margin-left: 70px;
+    }
+
+    .card{
+        margin-top: 50px;
+    }
+    .card:first-child{
+        margin-top: 50px;
+    }
+    .work-cards{
+        display: flex;
+        flex-flow: row;
+        align-items: flex-start;
+    }
+
+    .work-cards img{
+        position: relative;
+    }
+    .card-text{
+        margin-left: 70px;
+    }
+
+    .card2 .card-text{
+        margin-left: 140px;
+    }
+
+    .card1 .card-arrow{
+        top: -180px;
+        left: 150px;
+    }
+
+    .card2 .card-arrow{
+        top: -180px;
+        left: 150px;
+    }
+
+    .line{
+        left: -500px;
+    }
+
+    .card2 p{
+        margin-top: 40px;
+    }
+}
