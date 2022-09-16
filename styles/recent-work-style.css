@@ -1,68 +1,131 @@
-.btn-action{
+.btn-action {
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+  margin-bottom: 0;
+}
+
+.btn-action .default-btn {
+  width: 290px;
+}
+
+.work-cards {
+  margin-bottom: 0px;
+}
+
+#footer-section {
+  margin-top: 80px;
+}
+
+@media screen and (min-width: 720px) and (max-width: 1280px) {
+  .card img {
+    width: 258px;
+    height: 355px;
+    margin-left: 70px;
+  }
+
+  .card {
+    margin-top: 50px;
+  }
+  .card:first-child {
+    margin-top: 50px;
+  }
+  .work-cards {
     display: flex;
-    justify-content: center;
-    margin-top: 250px;
-    margin-bottom: 0;
+    flex-flow: row;
+    align-items: flex-start;
+  }
+
+  .work-cards img {
+    position: relative;
+  }
+  .card-text {
+    margin-left: 70px;
+  }
+
+  .card2 .card-text {
+    margin-left: 140px;
+  }
+
+  .card1 .card-arrow {
+    top: -180px;
+    left: 150px;
+  }
+
+  .card2 .card-arrow {
+    top: -180px;
+    left: 150px;
+  }
+
+  .line {
+    left: -500px;
+  }
+
+  .card2 p {
+    margin-top: 40px;
+  }
 }
 
-.btn-action .default-btn{
-    width: 290px;
-}
+@media screen and (min-width: 1300px) {
+  .our-partnerships {
+    position: relative;
+    margin-left: 550px;
+    left: 0;
+  }
+  .our-partnerships p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    width: 40vw;
+  }
 
+  #famous-projects .work-cards {
+    height: 500px;
+  }
 
-.work-cards{
-    margin-bottom: 0px;
-}
+  .card1 {
+    position: relative;
+    top: -150px;
+    left: -300px;
+  }
 
-#footer-section{
-    margin-top: 80px;
-}
+  .card2 {
+    position: relative;
+    top: -1140px;
+    left: 300px;
+  }
 
-@media screen and (min-width:720px) {
-    .card img{
-        width: 258px;
-        height: 355px;
-        margin-left: 70px;
-    }
+  .card-text {
+    position: relative;
+    top: 50px;
+    left: 0px;
+  }
 
-    .card{
-        margin-top: 50px;
-    }
-    .card:first-child{
-        margin-top: 50px;
-    }
-    .work-cards{
-        display: flex;
-        flex-flow: row;
-        align-items: flex-start;
-    }
+  .card-text h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.4px;
+  }
 
-    .work-cards img{
-        position: relative;
-    }
-    .card-text{
-        margin-left: 70px;
-    }
+  .card-text p {
+    width: 20vw;
+  }
 
-    .card2 .card-text{
-        margin-left: 140px;
-    }
+  .card1 .card-text {
+    left: 20px;
+  }
 
-    .card1 .card-arrow{
-        top: -180px;
-        left: 150px;
-    }
+  .card2 .card-text {
+    left: -25px;
+  }
 
-    .card2 .card-arrow{
-        top: -180px;
-        left: 150px;
-    }
+  .card1 .card-arrow {
+    left: 285px;
+  }
 
-    .line{
-        left: -500px;
-    }
-
-    .card2 p{
-        margin-top: 40px;
-    }
+  .card2 .card-arrow {
+    left: 315px;
+  }
 }

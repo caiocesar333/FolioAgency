@@ -123,3 +123,81 @@ h2 {
 .phone-banner {
   height: 500px;
 }
+
+@media screen and (min-width: 1300px) {
+
+  .nav-iframe {
+    width: 100vw;
+    height: 100px;
+  }
+  .we-make {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 0;
+  }
+  #what-we-do .title {
+    text-align: center;
+    width: 50vw;
+    position: relative;
+    margin-left: 350px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: -0.5px;
+  }
+
+  #what-we-do p {
+    text-align: center;
+    margin-left: 350px;
+  }
+
+  #mobile {
+    display: none;
+  }
+
+  .card-container {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card-tablet {
+    margin: 25px;
+  }
+
+  .card-tablet:hover {
+    cursor: pointer;
+  }
+
+  .not-current {
+    margin-top: 30px;
+  }
+
+  .achievement {
+    width: 40vw;
+    position: relative;
+    top: 100px;
+    left: 60%;
+  }
+
+  .achievement p{
+    width: 40vw;
+  }
+  .achievement h3 {
+    width: 30vw;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+  }
+
+  .phone-banner{
+    position: relative;
+    top: -350px;
+    left: 10%;
+  }
+}

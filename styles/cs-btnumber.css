@@ -179,12 +179,11 @@ h3:nth-child(2) {
   }
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 720px) and (max-width: 1280px) {
   #mobile {
     display: none;
   }
 
-  
   .bento-3d-kit {
     width: 100vw;
     height: 900px;
@@ -278,7 +277,7 @@ h3:nth-child(2) {
     font-weight: lighter;
   }
 
-  li a{
+  li a {
     color: white;
   }
 
@@ -297,7 +296,142 @@ h3:nth-child(2) {
   }
 
   .default-btn {
-    background: #5468E7;
+    background: #5468e7;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  #mobile {
+    display: none;
+  }
+
+  .bento-3d-kit {
+    width: 100vw;
+    height: 900px;
+  }
+  .containe-box {
+    height: 850px;
+    width: 100vw;
+    display: inline;
+    flex-flow: row wrap;
+  }
+  .container1 {
+    margin-left: 150px;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container1 h2 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: -0.5px;
+  }
+  .container2 {
+    position: relative;
+    top: -350px;
+    left: 50vw;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .plus {
+    left: 30%;
+
+  }
+
+  .laptop img {
+    display: none;
+  }
+
+  .laptop2 {
+    height: 350px;
+  }
+
+  .laptop-img {
+    width: 50vw;
+    position: relative;
+    top: -300px;
+    left: 390px;
+  }
+
+  #visual-identity {
+    margin-top: 0;
+  }
+
+  .visual-identity h2 {
+    width: 40vw;
+    font-style: Bold;
+    font-size: 64px;
+    line-height: 72px;
+    vertical-align: top;
+    letter-spacing: -0.5px;
+  }
+  .visual-identity p {
+    width: 40vw;
+  }
+
+  .visual-identity .container2 {
+    width: 50vw;
+  }
+
+  .card {
+    width: 40vw;
+  }
+
+  .container1 .plus {
+    left: 20%;
+    top: 1650px;
+  }
+
+  .btn-action {
+    position: relative;
+    left: 25px;
+  }
+
+  .arrow-container {
+    position: absolute;
+    left: 50%;
+    margin-top: 60px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: lighter;
+  }
+
+  li a {
+    color: white;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar li {
+    display: inline;
+    padding: 10px;
+  }
+
+  .navbar li:hover {
+    color: #5468e7;
+  }
+
+  .default-btn {
+    background: #5468e7;
   }
 
   a {

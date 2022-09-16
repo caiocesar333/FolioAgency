@@ -25,7 +25,7 @@ h2 {
 }
 
 .footer-iframe {
-  height: 100%;
+  height: 1100px;
 }
 
 #footer-section {
@@ -114,7 +114,7 @@ p {
   transition: 400ms;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 720px) and (max-width: 1280px) {
   .our-partnerships {
     margin-left: 120px;
   }
@@ -188,11 +188,11 @@ p {
     line-height: 40px;
   }
 
-  .bento1 .bento-parag{
+  .bento1 .bento-parag {
     margin-top: 400px;
   }
 
-  .bento1 .card-arrow{
+  .bento1 .card-arrow {
     top: 360px;
     right: 0px;
   }
@@ -215,21 +215,183 @@ p {
     line-height: 40px;
   }
 
-  .bento2 .bento-parag{
+  .bento2 .bento-parag {
     width: 50vw;
     margin-top: 400px;
   }
 
-  .bento2 .card-arrow{
+  .bento2 .card-arrow {
     top: 360px;
     left: 290px;
   }
 
-  .bento3{display: none;}
-  .sapiens2{display: none;}
+  .bento3 {
+    display: none;
+  }
+  .sapiens2 {
+    display: none;
+  }
 
-
-  #footer-section{
+  #footer-section {
     height: 1200px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .nav-iframe {
+    width: 100vw;
+    height: 100px;
+  }
+
+  .footer-iframe{
+    margin-top: 250px;
+  }
+
+  .our-partnerships {
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    margin-left: 30%;
+  }
+
+  .our-partnerships h1 {
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 100px;
+    letter-spacing: -1px;
+  }
+
+  .work-cards {
+    display: flex;
+    width: 100vw;
+    height: 1000px;
+    margin-top: 100px;
+    justify-content: flex-start;
+    flex-flow: column;
+  }
+
+  .sapiens {
+    display: none;
+  }
+  .sapiens-img {
+    display: none;
+  }
+
+  .sapiens-text h4 {
+    position: relative;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.4px;
+    width: 467px;
+    top: -350px;
+    left: -550px;
+  }
+  .sapiens-text p {
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #606060;
+    width: 205px;
+    top: -350px;
+    left: -550px;
+  }
+
+  .sapiens1 {
+    height: 700px;
+  }
+
+  .sapiens1 img {
+    width: 650px;
+    position: relative;
+    top: -150px;
+    left: 30%;
+  }
+
+  .card-text .card-arrow {
+    margin-top: 0;
+    position: relative;
+    top: -350px;
+    left: 65%;
+  }
+
+  .bento1 {
+    position: relative;
+    margin-top: 0;
+    left: 20%;
+  }
+
+  .bento1 h4 {
+    position: relative;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.4px;
+    top: -120px;
+    left: -100px;
+  }
+
+  .bento1 p{
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #606060;
+    width: 205px;
+    top: 290px;
+    left: -50px;
+  }
+
+  .bento1 .card-arrow{
+    top: 60px;
+    left: 180px;
+  }
+
+  .bento2{
+    position: relative;
+    margin-top: 0;
+    left: -20%;
+    top: -350px;
+  }
+
+  .bento2 h4 {
+    position: relative;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.4px;
+    top: -350px;
+    left: 0px;
+  }
+
+  .bento2 p{
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #606060;
+    width: 205px;
+    top: 0px;
+    left: 50px;
+  }
+
+  .bento2 .card-arrow{
+    top: -200px;
+    left: 300px;
+  }
+  
+  .bento3 {
+    display: none;
+  }
+  .sapiens2 {
+    display: none;
   }
 }
