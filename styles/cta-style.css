@@ -91,3 +91,35 @@ a:hover{
     position: absolute;
     right: 22px;
 }
+
+@media screen and (max-width: 480px) {
+  #call-to-action-tablet{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  #call-to-action-mobile{
+    display: none;
+  }
+  
+  .cta-tablet{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cta-tablet-img{
+    height: 500px;
+  }
+
+  .apply{
+    position: absolute;
+    top: 80px;
+    right: 200px;
+  }
+  .apply:hover{
+    cursor: pointer;
+  }
+}
