@@ -151,3 +151,53 @@
   width: 92px;
   height: 92px;
 }
+
+a:hover{
+  position: absolute;
+  cursor: pointer;
+}
+
+@media screen and (min-width:720px) {
+
+  body{
+    height: 110vh;
+  }
+
+  .cs-text {
+    margin-top: 100px;
+    width: 30vw;
+  }
+
+  .cs-text p{
+    width: 20vw;
+  }
+
+  .pacman{
+    width: 150px;
+  }
+
+  .hero-images{
+    position: absolute;
+    height: 100px;
+  }
+
+  .hero-images .line{
+    position: relative;
+    top: -690px;
+    left: -50px;
+  }
+  .hero-images .bg{
+    top: -490px;
+  }
+
+  .hero-images .desktop-img{
+    width: 60vw;
+    top: -520px;
+    left:  250px;
+  }
+
+  .arrow-container{
+    position: absolute;
+    margin-top: 60px;
+  }
+}

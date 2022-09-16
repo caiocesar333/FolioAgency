@@ -1,0 +1,188 @@
+.cs-text {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.featured-product {
+  font-weight: 300;
+  font-size: 9.95556px;
+  line-height: 13px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 118px;
+  height: 28px;
+  border-radius: 14.2222px;
+  background: #ffba79;
+  margin-bottom: 24px;
+}
+
+.cs-text h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px;
+  color: #232340;
+  margin-bottom: 25px;
+}
+
+.icons-container {
+  width: 100vw;
+  margin-top: 50px;
+  display: flex;
+}
+
+.pacman {
+  width: 30vw;
+}
+
+.privacy {
+  width: 40vw;
+}
+
+.icons-container img {
+  margin-bottom: 20px;
+}
+
+.icons-container p {
+  color: #5468e7;
+}
+
+.hero-images {
+  height: 60vh;
+}
+
+.arrow-container {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.arrow-container img {
+  border: 0px solid #d8d8d8;
+  border-radius: 50%;
+}
+
+.arrow {
+  width: 58px;
+  height: 58px;
+}
+
+.arrow:hover {
+  background: #5468e7;
+  transition: 400ms;
+}
+
+/*               OVER VIEW                 */
+
+.tablet {
+  width: 100vw;
+  top: 131px;
+  left: 0;
+}
+
+.overview-text {
+  margin-top: 50px;
+  margin-left: 25px;
+  width: 80vw;
+}
+
+.overview-text p:first-child {
+  color: #5468e7;
+}
+
+.overview-text h2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #232340;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.overview-text p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #606060;
+  margin-bottom: 40px;
+}
+
+.overview-text h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+}
+
+.card-container {
+  margin-top: 80px;
+  display: flex;
+  align-content: center;
+  flex-flow: column wrap;
+}
+
+.card {
+  margin-bottom: 50px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-flow: column;
+  border: 1px solid #d8d8d8;
+  border-radius: 32px;
+  width: 311px;
+  height: 256px;
+}
+
+.card p {
+  margin-top: 25px;
+  text-align: center;
+  color: #5468e7;
+}
+
+.card img {
+  align-self: center;
+  width: 92px;
+  height: 92px;
+}
+
+a:hover {
+  position: absolute;
+  cursor: pointer;
+}
+
+@media screen and (min-width:720px) {
+    .tablet{
+        width: 40vw;
+    }
+    .line{
+        display: none;
+    }
+
+    .tablet-div{
+        display: flex;
+    }
+
+    .overview-text{
+        width: 90vw;
+        height: 600px;
+    }
+
+    .card-container{
+        margin-top: 0;
+       flex-flow: row ;
+       width: 60vw;
+       margin-left: 40vw;
+       justify-content: flex-end;
+    }
+    .card{
+        margin: 5px;
+        width: 150px;
+    }
+}

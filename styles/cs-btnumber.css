@@ -169,3 +169,94 @@ h3:nth-child(2) {
 .btn-action .default-btn {
   width: 290px;
 }
+
+@media screen and (max-width: 480px){
+  .laptop-img {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  
+  .bento-3d-kit {
+    width: 100vw;
+    height: 900px;
+  }
+  .containe-box {
+    height: 850px;
+    width: 100vw;
+    display: inline;
+    flex-flow: row wrap;
+  }
+  .container1 {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .container2 {
+    position: relative;
+    top: -350px;
+    left: 50vw;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .plus {
+    left: 30%;
+  }
+
+  .laptop img{
+    display: none;
+  }
+
+  .laptop2 {
+    height: 350px;
+  }
+
+  .laptop-img {
+    width: 80vw;
+    position: relative;
+    top: -200px;
+    left: 70px;
+  }
+
+  #visual-identity {
+    margin-top: 0;
+  }
+
+  .visual-identity h2 {
+    width: 40vw;
+    font-style: Bold;
+    font-size: 64px;
+    line-height: 72px;
+    vertical-align: top;
+    letter-spacing: -0.5px;
+  }
+  .visual-identity p {
+    width: 40vw;
+  }
+
+  .visual-identity .container2 {
+    width: 50vw;
+  }
+
+  .card {
+    width: 40vw;
+  }
+
+  .container1 .plus{
+    top: 1800px;
+  }
+
+  .btn-action{
+    position: relative;
+    left: 25px;
+  }
+
+  .arrow-container{
+    position: absolute;
+    left: 50%;
+    margin-top: 60px;
+  }
+}
